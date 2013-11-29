@@ -37,4 +37,6 @@ propi-k ------->x-v[k]
 (n-k)/propi-k = (v[n]-v[k])/(x-v[k])
 (n-k)(x-v[k]) = (propi-k)(v[n]-v[k])
 (n-K)(x-v[k])/(v[n]-v[k]) = propi-k
+propi = ((n-K)(x-v[k])/(v[n]-v[k]))+k;
+
 

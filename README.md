@@ -27,4 +27,14 @@ de 3 simple que es lo que de forma inconsciente usamos.
 De esta manera sea:
 k: el origen del trozo del vector donde estamos buscando-->0 en origen
 N: el final del trozo del vector donde estamos buscando--> el tamaño del vector -1 en origen
+v: el vector donde se busca
+Si la diferencia N-k es proporcional a v[n]-v[k]
+entonces propi-el indice donde esta el valor menos k- es decir la distancia que hay desde donde empezamos hasta que encontramos el valor es proporcional al valor buscado menos v[k}
+Es decir:
+N-k -----------> v[N]-v[k]
+propi-k ------->x-v[k]
+
+(n-k)/propi-k = (v[n]-v[k])/(x-v[k])
+(n-k)(x-v[k]) = (propi-k)(v[n]-v[k])
+(n-K)(x-v[k])/(v[n]-v[k]) = propi-k
 
